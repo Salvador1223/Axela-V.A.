@@ -1,6 +1,7 @@
 body {
   display: flex;
   flex-direction: row;
+  /* background-color: blue; */
 }
 
 body div {
@@ -9,4 +10,8 @@ body div {
   border: 1px solid black;
   margin: 0 auto;
   padding: 10px;
+}
+
+#axela-submit{
+
 }

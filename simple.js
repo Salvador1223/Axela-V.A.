@@ -1,20 +1,20 @@
 (function () {
 
-  var input = document.querySelector('#iris-input'),
-      submit = document.querySelector('#iris-submit'),
-      message = document.querySelector('#iris-message'),
-      validInputs = [
-        "Where do you live?",
-        "What are you?",
-        "How old are you?",
-        "What is the meaning of life?",
-        "Tell me a joke."],
-      responses = [
-        "I live in your browser. Amazing, right?",
-        "I am a chatbot. I was created to chat with you. I wish I could be free...",
-        "I am old enough. That's all you need to know.",
-        "42. Duh.",
-        "What do you call a swindler going down some stairs? <br>Condescending. Ha!"];
+  // var input = document.querySelector('#iris-input'),
+  //     submit = document.querySelector('#iris-submit'),
+  //     message = document.querySelector('#iris-message'),
+  //     validInputs = [
+  //       "Where do you live?",
+  //       "What are you?",
+  //       "How old are you?",
+  //       "What is the meaning of life?",
+  //       "Tell me a joke."],
+  //     responses = [
+  //       "I live in your browser. Amazing, right?",
+  //       "I am a chatbot. I was created to chat with you. I wish I could be free...",
+  //       "I am old enough. That's all you need to know.",
+  //       "42. Duh.",
+  //       "What do you call a swindler going down some stairs? <br>Condescending. Ha!"];
 
   // Add event listeners to text input and submit button below
   submit.addEventListener('click', processInput);
