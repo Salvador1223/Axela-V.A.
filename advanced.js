@@ -79,6 +79,9 @@
          case "show":
          show(words[1]);
          break;
+         case "go":
+         go(words[1]);
+         break;
          default:
          message.innerHTML = errorText;
        }
@@ -165,7 +168,7 @@
         picture.src = 'img/dog.png';
         advancedDiv.appendChild(picture);
         break;
-      case 'de-wae':
+      case 'dewae':
         message.innerHTML = 'do you know de wae?';
         picture = document.createElement('img');
         picture.src = 'img/dawae.jpg';
@@ -177,8 +180,23 @@
         picture.src = 'img/devin.jpeg';
         advancedDiv.appendChild(picture);
         break;
+        case 'surprise'
+        window.location = 'https://www.youtube.com/watch?v=w3Gt42kVgCw';
+        break;
       default:
         message.innerHTML = dunnoText;
+    }
+  }
+  function go(word){
+    switch(word){
+      case 'youtube':
+      window.location = 'https://www.youtube.com/';
+      break;
+      case 'spotify':
+      window.location = 'https://open.spotify.com/browse/featured'
+      break;
+      default:
+      message.innerHTML = dunnoText;
     }
   }
 

@@ -1,7 +1,10 @@
 body {
   display: flex;
   flex-direction: row;
-  /* background-color: blue; */
+   background: url(finalDestination.jpg);
+   background-size: 1450px;
+   font-family: ordinary;
+   color: lightblue;
 }
 
 body div {
@@ -14,4 +17,9 @@ body div {
 
 #axela-submit{
 
+}
+
+@font-face {
+  font-family: ordinary;
+  src: url(Ordinary.ttf);
 }
